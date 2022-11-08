@@ -1,0 +1,22 @@
+server:
+  port: 9090
+  
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/bank?serverTimezone=UTC
+    username: root
+    password: root
+   
+   
+  jpa:
+    hibernate-ddl-auto: update
+    generate-ddl: false
+    show-sql: true
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL5Dialect 
+ 
+       
+      
+      
